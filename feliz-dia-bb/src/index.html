@@ -21,7 +21,7 @@
       background: white;
       padding: 2rem;
       border-radius: 20px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
       text-align: center;
       max-width: 400px;
       position: relative;
@@ -151,6 +151,28 @@
       100% {
         transform: rotate(45deg) translateY(-100vh) scale(1.5);
         opacity: 0;
+      }
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 1rem;
+      }
+      .card {
+        padding: 1.5rem;
+      }
+
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+
+      .btn {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
       }
     }
   </style>
